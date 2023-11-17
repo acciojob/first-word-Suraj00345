@@ -1,5 +1,5 @@
 function firstWord(s) {
- const first = s.split(' ')[0]
+  const first = s.trim().split(' ')[0];
   return(first);
 }
 
