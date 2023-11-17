@@ -1,5 +1,6 @@
 function firstWord(s) {
-  // your code here
+ const first = s.split(' ')[0]
+  return(first);
 }
 
 // Do not change the code below
